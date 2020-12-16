@@ -1,0 +1,11 @@
+bootnodes=["enode://d9371c2e386365962b0591fd9c6a8945d11b7b658b09663f24cb38a9170063038ebd127e1f9a7331b36bec63930e0e061021d29eba092c3886d4a91259d7bbea@0.0.0.0:31303"]
+p2p-host="0.0.0.0"
+genesis-file="../genesis.json"
+rpc-http-cors-origins=["all"]
+host-allowlist=["*"]
+rpc-http-enabled=true
+rpc-http-api=["ETH","NET","IBFT"]
+rpc-http-port=8447
+p2p-port=31304
+data-path="data"
+min-gas-price=0

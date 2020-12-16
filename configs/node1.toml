@@ -1,0 +1,14 @@
+genesis-file="../genesis.json"
+p2p-host="0.0.0.0"
+rpc-http-cors-origins=["all"]
+host-allowlist=["*"]
+rpc-ws-enabled=true
+rpc-http-enabled=true
+rpc-http-api=["ETH","NET","IBFT"]
+rpc-http-port=8545
+p2p-port=31303
+data-path="data"
+graphql-http-enabled=true
+graphql-http-host="0.0.0.0"
+graphql-http-port=8866
+min-gas-price=0
